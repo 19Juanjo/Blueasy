@@ -1,0 +1,1051 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    background-image: url(../assets/imagenes/Fondo.png);
+    background-size: cover;
+    height: 48vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00000085;
+    height: 120px;
+    color: white;
+}
+
+nav h1 {
+    font-size: 25px;
+}
+
+nav span {
+    color: #63c1ff;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav a,
+li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.home {
+    color: #63c1ff;
+    border: 2px solid #63c1ff;
+    padding: 5px 15px;
+}
+
+.inicio1 {
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio1 p {
+    background-color: #00000085;
+    padding: 0 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.inicio2 {
+    background-color: #5ac8fa;
+    padding: 100px 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+}
+
+.inicio2 div {
+    width: 260px;
+}
+
+.inicio2 img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.coffe img {
+    width: 28px;
+    height: 35px;
+}
+
+.inicio2 h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.inicio2 p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.inicio3 {
+    padding: 20px 180px;
+}
+
+.inicio3 nav {
+    background-color: #fff;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.inicio3 nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.inicio3 nav .portfolio {
+    display: inline-block;
+    margin-right: auto;
+    font-size: 22px;
+    border-bottom: 1px solid #000;
+    font-weight: 100;
+    width: 35px;
+}
+
+.inicio3 nav .boton {
+    border: 1px solid #5ac8fa;
+    padding: 4px 10px;
+    color: #5ac8fa;
+}
+
+.inicio3 .imagenes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.inicio3 img {
+    width: 100%;
+    height: 200px;
+}
+
+.inicio4 {
+    padding: 100px 180px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    background: #55636B;
+    color: #fff;
+}
+
+.inicio4 h2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.inicio4 hr {
+    width: 45px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.inicio4 p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #d9d9d9;
+}
+
+.inicio4 button {
+    background: transparent;
+    border: 2px solid #8c9aa1;
+    padding: 8px 22px;
+    color: #8c9aa1;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.inicio4 img {
+    width: 480px;
+    height: 260px;
+}
+
+.inicio5 {
+    background: #51CCFF;
+    padding: 55px 180px;
+    color: #ffffff;
+    position: relative;
+}
+
+.inicio5 h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.inicio5 hr {
+    width: 45px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.inicio5 p {
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.inicio5 strong {
+    font-weight: 600;
+}
+
+.inicio5 img {
+    position: absolute;
+    top: 50px;
+    right: 190px;
+    width: 20px;
+}
+
+.inicio6 {
+    background-image: url(../assets/imagenes/bg_whoIs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titulo6 h2 {
+    color: #fff;
+    font-weight: 200;
+    font-size: 24px;
+    margin-left: 380px;
+    margin-bottom: 5px;
+}
+
+.titulo6 hr {
+    width: 45px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 29px;
+    margin-left: 380px;
+}
+
+.text6 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    margin-left: 380px;
+}
+
+.a {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.b {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.c {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.d {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.inicio6 p {
+    color: #fff;
+    font-size: 9.8px;
+}
+
+.inicio7 {
+    padding: 55px 180px;
+    color: #515151;
+    position: relative;
+}
+
+.inicio7 h2 {
+    font-size: 22px;
+    font-weight: 300;
+
+    color: #515151;
+}
+
+.inicio7 hr {
+    width: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 28px;
+}
+
+.inicio7 p {
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.inicio7 span {
+    font-weight: 600;
+    color: #51CCFF;
+    font-size: 11px;
+}
+
+.inicio8 {
+    background-image: url(..//assets/imagenes/bg_contact.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.text8 h2 {
+    margin-left: 250px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.text8 hr {
+    width: 45px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+
+}
+
+form {
+    color: #fff;
+    margin-left: 250px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.for1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.for1 input {
+    padding: 10px 80px;
+}
+
+.for2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    max-width: 800px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.for3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: -40px;
+}
+
+.for3 input {
+    padding: 10px 80px;
+}
+
+.for4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -100px;
+    margin-top: -60px;
+    max-width: 100px;
+}
+
+.for4 ul,
+li {
+    display: inline-block;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    background: transparent;
+    color: #d9d9d9;
+    border: 1px solid #fff;
+}
+
+.message {
+    color: #fff;
+    margin-left: 250px;
+    margin-top: -400px;
+}
+
+.message textarea {
+    padding: 20px 230px;
+}
+
+.message button {
+    padding: 15px 100px;
+    background-color: #51CCFF;
+    border: #d9d9d9;
+    color: #ffff;
+    font-weight: 800;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 80px;
+    background-color: #40434bf8;
+    color: #fff;
+}
+
+.footer div a {
+    color: #d9d9d9;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1279px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    .inicio1 p {
+        font-size: 24px;
+    }
+
+    .inicio2 div {
+        width: 200px;
+        margin-right: 75px;
+        margin-left: -80px;
+    }
+
+    .inicio2 img {
+        width: 30px;
+    }
+
+    .coffe img {
+        width: 22px;
+        height: 30px;
+    }
+
+    .inicio2 h2 {
+        font-size: 14px;
+    }
+
+    .inicio2 p {
+        font-size: 8px;
+        max-width: 180px;
+    }
+
+    .inicio3 nav a {
+        color: #555;
+        font-size: 10px;
+    }
+
+    .inicio3 nav .portfolio {
+        font-size: 18px;
+    }
+
+    .inicio3 .imagenes {
+        gap: 10px;
+        margin-left: -30px;
+    }
+
+    .inicio3 img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .inicio4 {
+        gap: 120px;
+        padding: 90px 70px;
+    }
+
+    .inicio4 div {
+        margin-left: 10px;
+    }
+
+    .inicio4 h2 {
+        font-size: 20px;
+    }
+
+    .inicio4 hr {
+        width: 38px;
+    }
+
+    .inicio4 p {
+        font-size: 9px;
+        max-width: 400px;
+    }
+
+    .inicio4 button {
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    .inicio4 img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .inicio5 h2 {
+        font-size: 20px;
+    }
+
+    .inicio5 hr {
+        width: 40px;
+    }
+
+    .inicio5 p {
+        font-size: 13.5px;
+    }
+
+    .titulo6 h2 {
+        font-size: 24px;
+        margin-left: 250px;
+    }
+
+    .titulo6 hr {
+        margin-left: 250px;
+    }
+
+    .text6 {
+        margin-left: 250px;
+    }
+
+    .text6 p {
+        font-size: 18px;
+    }
+
+    .d img {
+        width: 40px;
+        height: auto;
+    }
+
+    .inicio6 p {
+        font-size: 9.8px;
+    }
+
+    .inicio7 h2 {
+        font-size: 20px;
+    }
+
+    .inicio7 p {
+        font-size: 13px;
+    }
+
+    .text8 h2 {
+        margin-left: 40px;
+    }
+
+    .text8 hr {
+        margin-left: 40px;
+    }
+
+    form {
+        margin-left: 30px;
+    }
+
+    .for1 input,
+    .for3 input {
+        padding: 8px 80px;
+    }
+
+    .for2 p {
+        font-size: 9px;
+    }
+
+    .for4 li {
+        font-size: 9px;
+    }
+
+    .message {
+        margin-left: 30px;
+        margin-top: -420px;
+    }
+
+    .message textarea {
+        padding: 10px 180px;
+    }
+
+    .message button {
+        padding: 8px 80px;
+    }
+
+    .footer div a,
+    p {
+        font-size: 12px;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 920px) {
+    header h1 {
+        font-size: 16px;
+    }
+
+    nav a {
+        font-size: 9.5px;
+        margin-right: -10px;
+    }
+
+    .inicio1 p {
+        font-size: 20px;
+    }
+
+    .inicio2 {
+        margin-left: -40px;
+    }
+
+    .inicio2 div {
+        max-width: 180px;
+    }
+
+    .inicio2 p {
+        max-width: 150px;
+        font-size: 9px;
+    }
+
+    .inicio3 {
+        margin-left: -70px;
+    }
+
+    .inicio3 nav a {
+        margin-right: -10px;
+    }
+
+    .inicio4 {
+        padding: 50px 40px;
+    }
+
+    .inicio4 div {
+        margin-left: 40px;
+    }
+
+    .inicio4 h2 {
+        font-size: 16px;
+    }
+
+    .inicio4 p {
+        font-size: 8px;
+        margin-left: 2px;
+    }
+
+    .inicio4 img {
+        margin-top: 20px;
+    }
+
+    .inicio5 h2 {
+        font-size: 18px;
+        margin-left: -10px;
+    }
+
+    .inicio5 hr {
+        margin-left: -10px;
+    }
+
+    .inicio5 p {
+        font-size: 10.2px;
+    }
+
+    .titulo6 h2 {
+        font-size: 18px;
+        margin-left: 180px;
+    }
+
+    .titulo6 hr {
+        margin-left: 180px;
+    }
+
+    .text6 {
+        margin-left: 180px;
+    }
+
+    .text6 p {
+        font-size: 8.5px;
+        max-width: 800px;
+    }
+
+    .d img {
+        width: 37px;
+        height: auto;
+    }
+
+    .inicio7 h2 {
+        font-size: 18px;
+        margin-left: -50px;
+    }
+
+    .inicio7 hr {
+        margin-left: -50px;
+    }
+
+    .inicio7 p {
+        margin-left: -50px;
+        font-size: 11px;
+    }
+
+    .inicio7 span {
+        margin-left: -50px;
+    }
+
+    .text8 h2 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .text8 hr {
+        margin-left: 20px;
+    }
+
+    .for1,
+    .for3 {
+        margin-left: -10px;
+    }
+
+    .for1 label,
+    .for3 label {
+        font-size: 12px;
+    }
+
+    .for1 input,
+    .for3 input {
+        padding: 8px 60px;
+    }
+
+    .for2 p {
+        font-size: 8.1px;
+    }
+
+    .for4 li {
+        font-size: 8.1px;
+    }
+
+    .message {
+        margin-top: -340px;
+    }
+
+    .message textarea {
+        padding: 5px 50px;
+        margin-left: -5px;
+    }
+
+    .message button {
+        padding: 8px 60px;
+        margin-left: -5px;
+    }
+
+    .footer div {
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 55vh;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    .inicio1 p {
+        font-size: 14px;
+    }
+
+    .inicio2 {
+        grid-template-columns: 1fr;
+        padding: 40px 25px;
+    }
+
+    .inicio2 div {
+        margin-left: 150px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .inicio2 p {
+        text-align: center;
+        font-size: 8px;
+        max-width: 200px;
+    }
+
+    .inicio3 nav {
+        flex-direction: column;
+    }
+
+    .inicio3 nav a {
+        margin-left: 20px;
+    }
+
+    .inicio3 .imagenes {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+
+    }
+
+    .imagenes div {
+        margin-left: 40px;
+    }
+
+    .imagenes img {
+        height: auto;
+        width: 250px;
+    }
+
+    .inicio4 {
+        flex-direction: column;
+    }
+
+    .inicio4 h2 {
+        font-size: 18px;
+    }
+
+    .inicio4 img {
+        margin-top: -90px;
+        overflow: hidden;
+    }
+
+    .inicio5 h2 {
+        margin-left: -70px;
+    }
+
+    .inicio5 hr {
+        margin-left: -70px;
+    }
+
+    .inicio5 p {
+        font-size: 7px;
+        max-width: 280px;
+        margin-left: -70px;
+    }
+
+    .titulo6 h2 {
+        margin-left: 100px;
+    }
+
+    .titulo6 hr {
+        margin-left: 100px;
+    }
+
+    .text6 {
+        margin-left: 200px;
+    }
+
+    .text6 p {
+        font-size: 7px;
+        margin-left: -80px;
+        max-width: 150px;
+    }
+
+    .a,
+    .b {
+        margin-left: -50px;
+    }
+
+    .d {
+        margin-left: -80px;
+        flex-direction: column;
+    }
+
+    .c {
+        margin-left: 10px;
+    }
+
+    .inicio7 h2,
+    .inicio7 hr {
+        margin-left: -80px;
+    }
+
+    .inicio7 p {
+        margin-left: -80px;
+        font-size: 9px;
+    }
+
+    .inicio7 span {
+        margin-left: -80px;
+        font-size: 10px;
+    }
+
+    .text8 {
+        margin-top: -60px;
+    }
+
+    .for1 {
+        padding: 5px 60px;
+        margin-left: -100px;
+    }
+
+    .for2 {
+        margin-left: -400px;
+        max-width: 200px;
+        margin-top: 100px;
+        font-size: 10px;
+    }
+
+    .for3 {
+        padding: 5px 60px;
+        margin-left: -100px;
+        margin-top: -50px;
+    }
+
+    .for4 {
+        margin-left: -350px;
+        margin-top: 30px;
+    }
+
+    .message {
+        margin-top: -470px;
+    }
+
+    .message label {
+        margin-left: -30px;
+    }
+
+    .message textarea {
+        margin-left: -60px;
+        padding: 10px 1px;
+    }
+
+    .message button {
+        margin-left: 10px;
+    }
+
+    .footer div a {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 480px){
+    header h1{
+        font-size: 12px;
+    }
+    nav a li{
+        font-size: 9px;
+    }
+    .inicio1{
+        margin-top: 40px;
+    }
+    .inicio1 p{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .inicio2 div{
+        margin-left: 100px;
+    }
+    .inicio3 nav a{
+        margin-left: 15px;
+    }
+    .inicio3 .imagenes{
+        margin-left: -85px;
+        height: auto;
+        width: 50px;
+    }
+    .inicio4 img{
+        width: 280px;
+    }
+    .inicio5{
+        padding: 50px;
+    }
+    .inicio4 h2{
+        font-size: 10px;
+    }
+    .inicio5 h2, .inicio5 hr{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .inicio5 p{
+        font-size: 7px;
+        margin-left: 5px;
+    }
+    .inicio5 img{
+        width: 15px;
+        height: auto;
+    }
+    .text6{
+        margin-left: 180px;
+    }
+    .c{
+        margin-left: 80px;
+    }
+    .d{
+        margin-left: 10px;
+    }
+    .inicio7{
+        padding: 40px;
+    }
+    .inicio7 h2{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .inicio7 hr{
+        margin-left: 5px;
+    }
+    .inicio7 p{
+        font-size: 7px;
+        margin-left: 5px;
+    }
+    .inicio7 span{
+        font-size: 7px;
+        margin-left: 5px;
+    }
+
+    .text8 h2{
+        font-size: 14px;
+    }
+    form{
+        margin-top: 10px;
+    }
+    .for1 input, .for3 input{
+        padding: 2px 30px;
+    }
+    .for1, .for3{
+        margin-left: -120px;
+        padding: 5px 40px;
+    }
+    .for2, .for4{
+        margin-left: -340px;
+    }
+    .message{
+        margin-left: -10px;
+        margin-top: -410px;
+    }
+    .message textarea{
+        margin-left: -40px;
+    }
+    textarea{
+        height: 90px;  
+        width: 250px;      
+    }
+    .message button{
+        margin-left: -40px;
+        padding: 8px 50px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer p{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+}
